@@ -1,9 +1,8 @@
-import React from 'react';
-import {CineSearch} from './CineSearch';
+import { CineSearch } from './CineSearch';
 
-function App(){
-  return(
-    <CineSearch/>
+function App() {
+  return (
+    <CineSearch />
   )
 }
 
