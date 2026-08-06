@@ -1,0 +1,641 @@
+[
+  {
+    "score": 1.0859848,
+    "show": {
+      "id": 1611,
+      "url": "https://www.tvmaze.com/shows/1611/spider-man",
+      "name": "Spider-Man",
+      "type": "Animation",
+      "language": "English",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science-Fiction"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "1994-11-19",
+      "ended": "1998-01-31",
+      "officialSite": "https://www.disneyplus.com/en-nl/series/spider-man/5IOvHdSZO9kv",
+      "schedule": {
+        "time": "10:00",
+        "days": [
+          "Saturday"
+        ]
+      },
+      "rating": {
+        "average": 8.1
+      },
+      "weight": 96,
+      "network": {
+        "id": 4,
+        "name": "FOX",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.fox.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 5294,
+        "thetvdb": 73750,
+        "imdb": "tt0112175"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/8/21945.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/8/21945.jpg"
+      },
+      "summary": "\u003Cp\u003E\u003Cb\u003ESpider-Man\u003C/b\u003E (1994) tells the story of a 19-year-old Peter Parker in his first year at Empire State University, and his alter-ego Spider-Man. The show features Spider-Man's classic villains, including the Kingpin, the Green Goblin, the Lizard, the Scorpion, Doctor Octopus, Mysterio, the Rhino, the Shocker, The Vulture and the Chameleon, as well as more recent villains such as Venom, Carnage and the Hobgoblin.\u003C/p\u003E",
+      "updated": 1744727578,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/1611"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/141696",
+          "name": "Spider Wars, Chapter II - Farewell, Spider-Man"
+        }
+      }
+    }
+  },
+  {
+    "score": 1.0842924,
+    "show": {
+      "id": 4458,
+      "url": "https://www.tvmaze.com/shows/4458/spider-man",
+      "name": "Spider-Man",
+      "type": "Animation",
+      "language": "English",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science-Fiction"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "2003-07-11",
+      "ended": "2003-09-12",
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": [
+          "Friday"
+        ]
+      },
+      "rating": {
+        "average": 7.1
+      },
+      "weight": 93,
+      "network": {
+        "id": 22,
+        "name": "MTV",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 78416,
+        "imdb": "tt0290983"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/20/51873.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/20/51873.jpg"
+      },
+      "summary": "\u003Cp\u003E\u003Cb\u003ESpider-Man\u003C/b\u003E continues where the successful live action feature film of the same name left off. The series follows the adventures of superhero Peter Parker and his friends, Harry Osborne and Mary Jane Watson, during their first year of college at Empire State University. Parker must juggle academics, a job as a Web designer/photographer for the Daily Bugle and an on-again, off-again relationship with the love of his life, all while fighting to protect the world from super-villains.\u003C/p\u003E",
+      "updated": 1704795053,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/4458"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/289631",
+          "name": "Mind Games (Part 2)"
+        }
+      }
+    }
+  },
+  {
+    "score": 1.0837774,
+    "show": {
+      "id": 4107,
+      "url": "https://www.tvmaze.com/shows/4107/spider-man",
+      "name": "Spider-Man",
+      "type": "Animation",
+      "language": "English",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Children"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "1967-09-09",
+      "ended": "1970-06-14",
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 6.9
+      },
+      "weight": 92,
+      "network": {
+        "id": 72,
+        "name": "Syndication",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 5295,
+        "thetvdb": 72739,
+        "imdb": "tt0061301"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/19/49914.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/19/49914.jpg"
+      },
+      "summary": "\u003Cp\u003EFirst airing on the ABC television network in 1967, the series revolves around the scientific-minded teenager Peter Parker who, after being bitten by a radioactive spider, develops amazing strength and spider-like powers. He decides to become a crime-fighting, costumed superhero; all the while dealing with his personal problems and the insecurities resulting from being a teenager.\u003C/p\u003E",
+      "updated": 1779409416,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/4107"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/262692",
+          "name": "Trip to Tomorrow"
+        }
+      }
+    }
+  },
+  {
+    "score": 1.0817447,
+    "show": {
+      "id": 32686,
+      "url": "https://www.tvmaze.com/shows/32686/spider-man",
+      "name": "Spider-Man",
+      "type": "Animation",
+      "language": "English",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science-Fiction"
+      ],
+      "status": "Ended",
+      "runtime": 22,
+      "averageRuntime": 22,
+      "premiered": "1981-09-12",
+      "ended": "1982-03-06",
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": [
+          "Saturday"
+        ]
+      },
+      "rating": {
+        "average": 7.3
+      },
+      "weight": 88,
+      "network": {
+        "id": 72,
+        "name": "Syndication",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 77686,
+        "imdb": "tt0081938"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/131/328110.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/131/328110.jpg"
+      },
+      "summary": "\u003Cp\u003EThe web slinging superhero battles crime in New York City.\u003C/p\u003E",
+      "updated": 1704794626,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/32686"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1331449",
+          "name": "Under the Wizard's Spell"
+        }
+      }
+    }
+  },
+  {
+    "score": 1.0334482,
+    "show": {
+      "id": 41312,
+      "url": "https://www.tvmaze.com/shows/41312/spider-man",
+      "name": "Spider-Man",
+      "type": "Scripted",
+      "language": "Japanese",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science-Fiction"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "1978-05-17",
+      "ended": "1979-03-14",
+      "officialSite": null,
+      "schedule": {
+        "time": "19:30",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 38,
+      "network": {
+        "id": 76,
+        "name": "TV Tokyo",
+        "country": {
+          "name": "Japan",
+          "code": "JP",
+          "timezone": "Asia/Tokyo"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 147681,
+        "imdb": "tt0185116"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/187/468372.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/187/468372.jpg"
+      },
+      "summary": "\u003Cp\u003EMotorcycle racer Takuya Yamashiro gains amazing abilities from the last survivor of the planet Spider and uses them and the giant robot Leopardon to battle Professor Monster and his evil Iron Cross Army as Spider-man!\u003C/p\u003E",
+      "updated": 1685329320,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/41312"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1620912",
+          "name": "The Hero's Shining Hot Blood"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.92102516,
+    "show": {
+      "id": 21928,
+      "url": "https://www.tvmaze.com/shows/21928/marvels-spider-man",
+      "name": "Marvel's Spider-Man",
+      "type": "Animation",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Action",
+        "Science-Fiction"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 33,
+      "premiered": "2017-08-19",
+      "ended": "2020-10-25",
+      "officialSite": "https://disneynow.com/shows/marvels-spider-man",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 7.6
+      },
+      "weight": 96,
+      "network": {
+        "id": 25,
+        "name": "Disney XD",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 329456,
+        "imdb": "tt6135682"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/245/614463.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/245/614463.jpg"
+      },
+      "summary": "\u003Cp\u003E\u003Cb\u003EMarvel's Spider-Man\u003C/b\u003E tells the story of an unsure (but courageous) teen who has to figure out how to be a super hero from the very beginning.\u003C/p\u003E",
+      "updated": 1746696641,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/21928"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1941829",
+          "name": "Maximum Venom"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.9175698,
+    "show": {
+      "id": 1529,
+      "url": "https://www.tvmaze.com/shows/1529/spider-man-unlimited",
+      "name": "Spider-Man Unlimited",
+      "type": "Animation",
+      "language": "English",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science-Fiction"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "1999-10-02",
+      "ended": "2001-03-31",
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": [
+          "Saturday"
+        ]
+      },
+      "rating": {
+        "average": 6.6
+      },
+      "weight": 90,
+      "network": {
+        "id": 4,
+        "name": "FOX",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.fox.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 5299,
+        "thetvdb": 73560,
+        "imdb": "tt0207120"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/8/21324.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/8/21324.jpg"
+      },
+      "summary": "\u003Cp\u003EBelieved to be dead after saving a life in a fire, Peter Parker uses this shroud to embark on a mission to retrieve John Jameson on Counter-Earth! Strap in to your seats and experience Spider-Man Unlimited!\u003C/p\u003E",
+      "updated": 1724203461,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/1529"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/139127",
+          "name": "Destiny Unleashed"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.82295763,
+    "show": {
+      "id": 3114,
+      "url": "https://www.tvmaze.com/shows/3114/marvels-ultimate-spider-man",
+      "name": "Marvel's Ultimate Spider-Man",
+      "type": "Animation",
+      "language": "English",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science-Fiction"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 27,
+      "premiered": "2012-04-01",
+      "ended": "2017-01-07",
+      "officialSite": null,
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Saturday"
+        ]
+      },
+      "rating": {
+        "average": 8
+      },
+      "weight": 97,
+      "network": {
+        "id": 25,
+        "name": "Disney XD",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": null
+      },
+      "webChannel": {
+        "id": 83,
+        "name": "DisneyNOW",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://disneynow.com/"
+      },
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 27587,
+        "thetvdb": 257645,
+        "imdb": "tt1722512"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/17/43035.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/17/43035.jpg"
+      },
+      "summary": "\u003Cp\u003ESpider-Man has learned what it means to be the ultimate hero. He's fought alongside the Avengers and led a team of heroes at S.H.I.E.L.D. Academy. But now that Spider-Man's greatest enemies, Doc Ock, Hydra, and the Sinister Six, are working together to destroy him and S.H.I.E.L.D., Spider-Man requires a special new team: a team of Spider put together by Spider-Man himself including Agent Venom, Iron Spider, Kid Arachnid, and Scarlet Spider! Spider-Man will need all his power, and his knowledge, and all his friends to stop the Sinister Six and Hydra.\u003C/p\u003E",
+      "updated": 1764780983,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/3114"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1010879",
+          "name": "Graduation Day - Part 2"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.82218635,
+    "show": {
+      "id": 4490,
+      "url": "https://www.tvmaze.com/shows/4490/the-spectacular-spider-man",
+      "name": "The Spectacular Spider-Man",
+      "type": "Animation",
+      "language": "English",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science-Fiction"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "2008-03-08",
+      "ended": "2009-11-18",
+      "officialSite": null,
+      "schedule": {
+        "time": "10:00",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": 7.2
+      },
+      "weight": 96,
+      "network": {
+        "id": 5,
+        "name": "The CW",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.cwtv.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 15237,
+        "thetvdb": 81494,
+        "imdb": "tt0976192"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/20/51967.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/20/51967.jpg"
+      },
+      "summary": "\u003Cp\u003EThe line of Super Villains determined to take down Spidey seems never ending. There's Venom, Electro, Dr. Octopus, Sandman and Rhino - just to name a few. These criminals are almost more than he can handle and the stress would be enough to send a lesser Super Hero over the edge, but it's all in a day's work for \u003Cb\u003EThe Spectacular Spider-Man\u003C/b\u003E.\u003C/p\u003E",
+      "updated": 1781865821,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/4490"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/291180",
+          "name": "Final Curtain"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.8187961,
+    "show": {
+      "id": 48694,
+      "url": "https://www.tvmaze.com/shows/48694/marvels-spider-man-origins",
+      "name": "Marvel's Spider-Man Origins",
+      "type": "Animation",
+      "language": "English",
+      "genres": [],
+      "status": "Ended",
+      "runtime": 5,
+      "averageRuntime": 5,
+      "premiered": "2017-06-28",
+      "ended": "2017-07-29",
+      "officialSite": null,
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 89,
+      "network": {
+        "id": 25,
+        "name": "Disney XD",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/261/654280.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/261/654280.jpg"
+      },
+      "summary": "\u003Cp\u003EAfter being bitten by a radioactive spider, Peter uses the five steps of scientific method to diagnose what has happened to him.\u003C/p\u003E",
+      "updated": 1690460560,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/48694"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1885543",
+          "name": "Conclusion!"
+        }
+      }
+    }
+  }
+]
