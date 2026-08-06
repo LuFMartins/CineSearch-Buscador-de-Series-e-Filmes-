@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /* 1. Garante que paddings não estorem a tela */
+}
+
+.container {
+    display: flex;          /* 2. Ativa Flexbox no container pai */
+    flex-direction: column; /* 3. Empilha o Header e o Resultado */
+    height: 100vh;
+    overflow: hidden;       /* Trava a barra de rolagem externa da janela */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.campoTexto {
+    width: 100%;
+    max-width: 300px;
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 50px 20px;
+    text-align: center;
+    border: none;
+}
+
+.bt {
+    padding: 10px;
+    border-radius: 50px 20px;
+    border: none;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.479);
+}
+
+.bt:hover {
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    cursor: pointer;
+}
+
+.bt:active {
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column; /* Organiza o h2 e a lista em coluna */
+    align-items: center;
+    flex: 1;                /* 4. Substitui o height: 100vh para pegar SÓ o espaço restante */
+    background-color: rgb(243, 242, 242);
+    overflow-y: auto;       /* A barra de rolagem fica 100% visível na tela! */
+    width: 100%;
+    padding: 30px;
+}
+
+/* Centraliza os avisos de busca/erro exatamente no meio vertical */
+.resultado > h2 {
+    margin: auto;
+}
+
+.blocoLista {
+    width: 100%;
+    max-width: 1000px; /* Evita que os cards fiquem infinitamente largos em monitores ultra-wide */
+    padding-bottom: 50px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: rgb(226, 226, 226);
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.178);
+    margin: 20px 0; /* Margem vertical entre cada card */
+}
+
+.summary {
+    width: 500px;
+}

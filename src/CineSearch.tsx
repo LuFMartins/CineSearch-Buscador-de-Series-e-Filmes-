@@ -1,5 +1,6 @@
 import { useState } from "react"
 import type { Filmes } from "./types"
+import "./CineSearch.css"
 
 export function CineSearch() {
 
@@ -15,7 +16,8 @@ export function CineSearch() {
         const nomeLimpo = nomeFilme.trim()
 
         if (nomeLimpo === "" || nomeLimpo == null) {
-            setErro('Digite o nome do filme que deseja procurar...')
+            alert('Digite o nome do filme que deseja procurar...')
+            setFilmes(null)
             setCarregando(false)
             return;
         }
@@ -61,43 +63,54 @@ export function CineSearch() {
 
     return (
         <div className="container">
-            <div className="form">
-                <input type="text" value={nomeFilme} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNomeFilme(e.target.value)} onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => { e.key === 'Enter' && buscarFilme() }} />
-                <button onClick={buscarFilme} disabled={carregando}>{carregando ? 'Buscando...' : 'Buscar'}</button>
+            <div className="header">
+                <h1>CINE SEARCH</h1>
+                <div className="form">
+                    <input className="campoTexto" type="text" value={nomeFilme} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNomeFilme(e.target.value)} onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => { e.key === 'Enter' && buscarFilme() }} placeholder="Digite o nome da Série || Filme"/>
+                    <button className="bt" onClick={buscarFilme} disabled={carregando} >Buscar</button>
+                </div>
             </div>
 
             <div className="resultado">
+                {filmes === null && !carregando && !erro && (
+                    <h2 style={{color:"rgba(100, 148, 237, 0.466)", userSelect:"none"}} >Aguardando sua pesquisa...</h2>
+                )}
                 {carregando && <h2>BUSCANDO...</h2>}
                 {erro && <h2>{erro}</h2>}
                 {!carregando && !erro && filmes && (
-                    <ul>
+                    <ul className="blocoLista">
                         {filmes?.map((filme) => (
-                            <li key={filme.show.id}>
-                                <h2>{filme.show.name}</h2>
+                            <li className="lista" key={filme.show.id}>
+                                <div>
+                                    <h2>{filme.show.name}</h2>
+                                    {filme.show.image ? (
+                                        <img src={filme.show.image?.medium} alt="Capa do Filme" />
+                                    ) : (
+                                        <p>Imagem Indisponível</p>
+                                    )}
+                                </div>
 
-                                {filme.show.image ? (
-                                    <img src={filme.show.image?.medium} alt="Capa do Filme" />
-                                ) : (
-                                    <p>Imagem Indisponível</p>
-                                )}
-
-                                <h3>Sinopse: </h3>
-                                {/** .replace(/<[^>]*>?/gm, '') serve para remover tags HTML de um string de texto */}
-                                <p>{filme.show.summary ? filme.show.summary.replace(/<[^>]*>?/gm, '') : ('Sem sinopse')}</p> 
+                                <div className="summary">
+                                    <h3>Sinopse: </h3>
+                                    {/** .replace(/<[^>]*>?/gm, '') serve para remover tags HTML de um string de texto */}
+                                    <p>{filme.show.summary ? filme.show.summary.replace(/<[^>]*>?/gm, '') : ('Sem sinopse')}</p>
+                                </div>
                                 
 
-                                <h3>Gêneros:</h3>
-                                <ul>
-                                    {filme.show.genres.length > 0 ? filme.show.genres.map(gen => (
-                                        <li key={gen}>{gen}</li>
-                                    )) : <li>Não informado!</li> }
-                                </ul>
-
-                                <h3>Idioma:</h3>
-                                <p>{filme.show.language}</p>
-
-                                <h3>Status:</h3>
-                                <p>{filme.show.status}</p>
+                                <div style={{display:'flex', flexDirection:'column', gap:'15px'}}>
+                                    <h3>Gêneros:</h3>
+                                    <ul>
+                                        {filme.show.genres.length > 0 ? filme.show.genres.map(gen => (
+                                            <li key={gen}>{gen}</li>
+                                        )) : <li>Não informado!</li> }
+                                    </ul>
+                                
+                                    <h3>Idioma:</h3>
+                                    <p>{filme.show.language}</p>
+                                
+                                    <h3>Status:</h3>
+                                    <p>{filme.show.status}</p>
+                                </div>
 
                             </li>
                         ))}
