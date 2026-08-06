@@ -1,14 +1,18 @@
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box; /* 1. Garante que paddings não estorem a tela */
+    box-sizing: border-box;
+    /* 1. Garante que paddings não estorem a tela */
 }
 
 .container {
-    display: flex;          /* 2. Ativa Flexbox no container pai */
-    flex-direction: column; /* 3. Empilha o Header e o Resultado */
+    display: flex;
+    /* 2. Ativa Flexbox no container pai */
+    flex-direction: column;
+    /* 3. Empilha o Header e o Resultado */
     height: 100vh;
-    overflow: hidden;       /* Trava a barra de rolagem externa da janela */
+    overflow: hidden;
+    /* Trava a barra de rolagem externa da janela */
 }
 
 .header {
@@ -58,23 +62,27 @@
 
 .resultado {
     display: flex;
-    flex-direction: column; /* Organiza o h2 e a lista em coluna */
+    flex-direction: column;
+    /* Organiza o h2 e a lista em coluna */
     align-items: center;
-    flex: 1;                /* 4. Substitui o height: 100vh para pegar SÓ o espaço restante */
+    flex: 1;
+    /* 4. Substitui o height: 100vh para pegar SÓ o espaço restante */
     background-color: rgb(243, 242, 242);
-    overflow-y: auto;       /* A barra de rolagem fica 100% visível na tela! */
+    overflow-y: auto;
+    /* A barra de rolagem fica 100% visível na tela! */
     width: 100%;
     padding: 30px;
 }
 
 /* Centraliza os avisos de busca/erro exatamente no meio vertical */
-.resultado > h2 {
+.resultado>h2 {
     margin: auto;
 }
 
 .blocoLista {
     width: 100%;
-    max-width: 1000px; /* Evita que os cards fiquem infinitamente largos em monitores ultra-wide */
+    max-width: 1000px;
+    /* Evita que os cards fiquem infinitamente largos em monitores ultra-wide */
     padding-bottom: 50px;
 }
 
@@ -86,9 +94,29 @@
     padding: 30px;
     border-radius: 25px;
     box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.178);
-    margin: 20px 0; /* Margem vertical entre cada card */
+    margin: 20px 0;
+    /* Margem vertical entre cada card */
 }
 
 .summary {
     width: 500px;
+}
+
+@media (max-width: 768px) {
+    .lista {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        background-color: rgb(226, 226, 226);
+        padding: 30px;
+        border-radius: 25px;
+        box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.178);
+        margin: 20px 0;
+        /* Margem vertical entre cada card */
+    }
+
+    .summary {
+        width: 80%;
+    }
 }
