@@ -4,6 +4,8 @@ Uma aplicação web moderna desenvolvida em React e TypeScript para consultar s�
 
 --- 
 ![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 ---
 
 ## 📌 Sobre o Projeto
