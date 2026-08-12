@@ -15,7 +15,7 @@ export function CineSearch() {
         setErro(null)
         const nomeLimpo = nomeFilme.trim()
 
-        if (nomeLimpo === "" || nomeLimpo == null) {
+        if (nomeLimpo === "") {
             alert('Digite o nome do filme que deseja procurar...')
             setFilmes(null)
             setCarregando(false)
