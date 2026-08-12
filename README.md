@@ -3,9 +3,12 @@
 Uma aplicação web moderna desenvolvida em React e TypeScript para consultar séries e programas de TV em tempo real, utilizando a API pública do TVMaze.
 
 --- 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+<!-- Contêiner HTML para centralizar as imagens -->
+<div align="center">
+  <img src="image.png" alt="Tela de Busca" width="300" style="margin: 10px;">
+  <img src="image-1.png" alt="Detalhes do Filme" width="300" style="margin: 10px;">
+  <img src="image-2.png" alt="Mensagem de Erro" width="300" style="margin: 10px;">
+</div>
 ---
 
 ## 📌 Sobre o Projeto
