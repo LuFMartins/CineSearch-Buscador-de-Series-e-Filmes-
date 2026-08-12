@@ -4,7 +4,7 @@ Uma aplicação web moderna desenvolvida em React e TypeScript para consultar s�
 
 --- 
 <!-- Contêiner HTML para centralizar as imagens -->
-<div align="center">
+<div>
   <img src="image-1.png" alt="Detalhes do Filme" width="500" style="margin: 10px;">
   <img src="image-2.png" alt="Detalhes do Filme - MOBILE" width="300" style="margin: 10px;">
 </div>
