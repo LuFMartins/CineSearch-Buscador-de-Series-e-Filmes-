@@ -75,13 +75,13 @@ export function CineSearch() {
                 {filmes === null && !carregando && !erro && (
                     <h2 style={{color:"rgba(100, 148, 237, 0.466)", userSelect:"none"}} >Aguardando sua pesquisa...</h2>
                 )}
-                {carregando && <h2>BUSCANDO...</h2>}
-                {erro && <h2>{erro}</h2>}
+                {carregando && <h2 style={{color:'white'}}>BUSCANDO...</h2>}
+                {erro && <h2 style={{color:'white'}}>{erro}</h2>}
                 {!carregando && !erro && filmes && (
                     <ul className="blocoLista">
                         {filmes?.map((filme) => (
                             <li className="lista" key={filme.show.id}>
-                                <div>
+                                <div style={{display:'flex', flexDirection:'column', gap:'30px'}}>
                                     <h2>{filme.show.name}</h2>
                                     {filme.show.image ? (
                                         <img src={filme.show.image?.medium} alt="Capa do Filme" />

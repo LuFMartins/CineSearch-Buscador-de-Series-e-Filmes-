@@ -11,8 +11,8 @@
     flex-direction: column;
     /* 3. Empilha o Header e o Resultado */
     height: 100vh;
-    overflow: hidden;
     /* Trava a barra de rolagem externa da janela */
+    overflow: hidden;
 }
 
 .header {
@@ -22,8 +22,15 @@
     align-items: center;
     color: white;
     padding: 20px;
-    background-color: cornflowerblue;
+    gap: 20px;
+    background-color: rgb(0, 44, 126);
     font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.393);
+    z-index: 1;
+}
+
+.header > h1{
+    font-size: 3em;
 }
 
 .form {
@@ -45,14 +52,17 @@
 
 .bt {
     padding: 10px;
+    background-color: rgba(0, 0, 0, 0.577);
+    color: white;
+    width: 100px;
     border-radius: 50px 20px;
     border: none;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.479);
 }
 
 .bt:hover {
-    background-color: rgba(0, 0, 0, 0.397);
-    color: white;
+    background-color: rgba(232, 205, 0, 0.628);
+    box-shadow: 1px 3px 10px rgba(232, 205, 0, 0.628);
     cursor: pointer;
 }
 
@@ -67,7 +77,7 @@
     align-items: center;
     flex: 1;
     /* 4. Substitui o height: 100vh para pegar SÓ o espaço restante */
-    background-color: rgb(243, 242, 242);
+    background-color: rgb(22, 35, 83);
     overflow-y: auto;
     /* A barra de rolagem fica 100% visível na tela! */
     width: 100%;
@@ -100,6 +110,8 @@
 
 .summary {
     width: 500px;
+    font-size: 1.2em;
+    text-align: justify
 }
 
 @media (max-width: 768px) {
